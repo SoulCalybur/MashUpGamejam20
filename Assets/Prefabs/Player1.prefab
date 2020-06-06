@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8681029163387290886}
   - component: {fileID: 8681029163387290880}
   - component: {fileID: 8681029163387290885}
+  - component: {fileID: 3213273228305265580}
   - component: {fileID: 8681029163387290884}
   - component: {fileID: 8681029163387290891}
   - component: {fileID: 8681029163387290890}
@@ -180,14 +181,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 8681029163387290881}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 462b2709a45ec6c4dbc95b34b12bc282, type: 3}
+  m_Script: {fileID: 11500000, guid: d6f0afd479516e84585dfa479321bd93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 8
   jumpForce: 22
-  fallMultiplier: 1.58
+  fallMultiplier: 1.6
   balloonPrefab: {fileID: 2780527229934709939, guid: 97247fa15b6769646896fdc6fff58ba1,
     type: 3}
+--- !u!114 &3213273228305265580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8681029163387290881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 059adc8a37fda7741ad13f987b24dfb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!50 &8681029163387290884
 Rigidbody2D:
   serializedVersion: 4

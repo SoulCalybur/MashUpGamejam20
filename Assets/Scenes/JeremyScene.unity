@@ -138,6 +138,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player2
       objectReference: {fileID: 0}
+    - target: {fileID: 8681029163387290886, guid: 463ff639a62489443b5373433ea18c88,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8681029163387290886, guid: 463ff639a62489443b5373433ea18c88,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.79951954
+      objectReference: {fileID: 0}
+    - target: {fileID: 8681029163387290886, guid: 463ff639a62489443b5373433ea18c88,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8681029163387290887, guid: 463ff639a62489443b5373433ea18c88,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -519,27 +534,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8681029163387290885, guid: 463ff639a62489443b5373433ea18c88,
-        type: 3}
-      propertyPath: balloonPrefab
-      value: 
-      objectReference: {fileID: 2780527229934709939, guid: 97247fa15b6769646896fdc6fff58ba1,
-        type: 3}
-    - target: {fileID: 8681029163387290886, guid: 463ff639a62489443b5373433ea18c88,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8681029163387290886, guid: 463ff639a62489443b5373433ea18c88,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 0.53904295
-      objectReference: {fileID: 0}
-    - target: {fileID: 8681029163387290886, guid: 463ff639a62489443b5373433ea18c88,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8681029163387290887, guid: 463ff639a62489443b5373433ea18c88,
         type: 3}
