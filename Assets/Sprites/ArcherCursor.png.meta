@@ -1,0 +1,664 @@
+fileFormatVersion: 2
+guid: d91f28780d4a235458f892c14c8f79b3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1850779006317157781
+    second: ArcherCursor_0
+  - first:
+      213: 5560441297148166499
+    second: ArcherCursor_1
+  - first:
+      213: 2714967919845592362
+    second: ArcherCursor_2
+  - first:
+      213: 2666010477854462052
+    second: ArcherCursor_3
+  - first:
+      213: -5333367140064910197
+    second: ArcherCursor_4
+  - first:
+      213: -5558739652667062366
+    second: ArcherCursor_5
+  - first:
+      213: -3253598956136256524
+    second: ArcherCursor_6
+  - first:
+      213: -163014084004794110
+    second: ArcherCursor_7
+  - first:
+      213: 2919301491042544464
+    second: ArcherCursor_8
+  - first:
+      213: -4523051617526302310
+    second: ArcherCursor_9
+  - first:
+      213: -1376184420623394312
+    second: ArcherCursor_10
+  - first:
+      213: -1519531753608886594
+    second: ArcherCursor_11
+  - first:
+      213: 7369123030273775539
+    second: ArcherCursor_12
+  - first:
+      213: 7264358358602741402
+    second: ArcherCursor_13
+  - first:
+      213: -7915901829289183315
+    second: ArcherCursor_14
+  - first:
+      213: -9223000979351721011
+    second: ArcherCursor_15
+  - first:
+      213: -6770004126707232671
+    second: ArcherCursor_16
+  - first:
+      213: -2401814549588443862
+    second: ArcherCursor_17
+  - first:
+      213: -7453072006012779813
+    second: ArcherCursor_18
+  - first:
+      213: -6044818375173764360
+    second: ArcherCursor_19
+  - first:
+      213: 6975064895402166839
+    second: ArcherCursor_20
+  - first:
+      213: 3409676679397799752
+    second: ArcherCursor_21
+  - first:
+      213: 5811014122218381638
+    second: ArcherCursor_22
+  - first:
+      213: 6300635742368115542
+    second: ArcherCursor_23
+  - first:
+      213: 7069362032023675480
+    second: ArcherCursor_24
+  - first:
+      213: -6851014106057349122
+    second: ArcherCursor_25
+  - first:
+      213: 6734777501053910444
+    second: ArcherCursor_26
+  - first:
+      213: 1307044288091998061
+    second: ArcherCursor_27
+  - first:
+      213: 2117467563672250685
+    second: ArcherCursor_28
+  - first:
+      213: 2854876120044721017
+    second: ArcherCursor_29
+  - first:
+      213: 4565862546150688261
+    second: ArcherCursor_30
+  - first:
+      213: 5120176938593337970
+    second: ArcherCursor_31
+  - first:
+      213: -1266153544129549227
+    second: ArcherCursor_32
+  - first:
+      213: -3019926212578445393
+    second: ArcherCursor_33
+  - first:
+      213: 7331577684262165036
+    second: ArcherCursor_34
+  - first:
+      213: 8763921501821205950
+    second: ArcherCursor_35
+  - first:
+      213: 3511733461429261543
+    second: ArcherCursor_36
+  - first:
+      213: -8759892017352193057
+    second: ArcherCursor_37
+  - first:
+      213: -4512683826883286779
+    second: ArcherCursor_38
+  - first:
+      213: -8658041909395238603
+    second: ArcherCursor_39
+  - first:
+      213: -5040762495849975359
+    second: ArcherCursor_40
+  - first:
+      213: 3891269538477610908
+    second: ArcherCursor_41
+  - first:
+      213: 4781840282526769696
+    second: ArcherCursor_42
+  - first:
+      213: -3294088535085577415
+    second: ArcherCursor_43
+  - first:
+      213: 7003392792120382843
+    second: ArcherCursor_44
+  - first:
+      213: -3775238318923258144
+    second: ArcherCursor_45
+  - first:
+      213: -8371174341637549107
+    second: ArcherCursor_46
+  - first:
+      213: -5879624912510937628
+    second: ArcherCursor_47
+  - first:
+      213: -665666325863977691
+    second: ArcherCursor_48
+  - first:
+      213: -413770796267842433
+    second: ArcherCursor_0
+  - first:
+      213: 1430690585515195482
+    second: ArcherCursor_1
+  - first:
+      213: -3858044943676496664
+    second: ArcherCursor_2
+  - first:
+      213: 4726980276488004577
+    second: ArcherCursor_3
+  - first:
+      213: 2881640192695360729
+    second: ArcherCursor_4
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ArcherCursor_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74560e27adf14af0800000000000000
+      internalID: -413770796267842433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArcherCursor_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5cf025e185dad310800000000000000
+      internalID: 1430690585515195482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArcherCursor_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4aba48098757ac0800000000000000
+      internalID: -3858044943676496664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArcherCursor_3
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e36850548b999140800000000000000
+      internalID: 4726980276488004577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArcherCursor_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc5818dc74adf720800000000000000
+      internalID: 2881640192695360729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArcherCursor_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a7c6e3ccb36bd2b0800000000000000
+      internalID: -5558739652667062366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArcherCursor_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fbaae9dcf4e8d2d0800000000000000
+      internalID: -3253598956136256524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArcherCursor_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2013285ed8bdcbdf0800000000000000
+      internalID: -163014084004794110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArcherCursor_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05bebdd2d31738820800000000000000
+      internalID: 2919301491042544464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArcherCursor_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a99b69c9484ea31c0800000000000000
+      internalID: -4523051617526302310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArcherCursor_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9d05f8f8fc6ece0800000000000000
+      internalID: -1376184420623394312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArcherCursor_11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb64731cbe989eae0800000000000000
+      internalID: -1519531753608886594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArcherCursor_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b75e9d4a52644660800000000000000
+      internalID: 7369123030273775539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArcherCursor_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96f7ad507f20d460800000000000000
+      internalID: 7264358358602741402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArcherCursor_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da77a5cf931152290800000000000000
+      internalID: -7915901829289183315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArcherCursor_15
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb29ae8971510080800000000000000
+      internalID: -9223000979351721011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArcherCursor_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160dfa3ad1d1c02a0800000000000000
+      internalID: -6770004126707232671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArcherCursor_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d7a6b746a0baed0800000000000000
+      internalID: -2401814549588443862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArcherCursor_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd24334af7e519890800000000000000
+      internalID: -7453072006012779813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
