@@ -4,7 +4,7 @@ using System.Collections;
 public class ArmRotation : MonoBehaviour
 
 {
-    public Transform hitPoint;
+    //public Transform hitPoint;
 
     public Transform CursorPoint;
 
@@ -60,14 +60,14 @@ public class ArmRotation : MonoBehaviour
         CursorPoint.transform.position = new Vector3(CursorInput.x, CursorInput.y, 0);
 
 
-        Debug.Log(CursorPoint.transform.position + ", Mouse pos: x:"+  mousePos.x+", y:"+ mousePos.y);
+        //Debug.Log(CursorPoint.transform.position + ", Mouse pos: x:"+  mousePos.x+", y:"+ mousePos.y);
                                                                   
         float angle = Mathf.Atan2(mousePos.y, mousePos.x) * Mathf.Rad2Deg;
 
         //Debug.Log(angle + "");
 
-        if (direction ==true) { posOffset = 75; }
-        if (direction == false) { posOffset = 110; }
+        if (direction ==true) { posOffset = 0; }
+        if (direction == false) { posOffset = 0; }
 
         transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle + posOffset)); //Rotating!
 
@@ -99,11 +99,11 @@ public class ArmRotation : MonoBehaviour
     void Flip()
 
     {
-        if (direction == false && p_Script._Direction == true || direction == true && p_Script._Direction == false)
+        if (direction == false && p_Script.FacingRight == true || direction == true && p_Script.FacingRight == false)
 
-        { p_Script.Flipp(); }
+        { p_Script.TurnCharacter(); }
 
-        hitPoint.Rotate(Vector3.forward * 180);
+        //hitPoint.Rotate(Vector3.forward * 180);
 
         Vector3 theScale = transform.localScale;
 

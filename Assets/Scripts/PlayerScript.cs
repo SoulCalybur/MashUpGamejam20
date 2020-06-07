@@ -3,11 +3,11 @@ using System.Collections;
 
 public class PlayerScript : MonoBehaviour {
 
-    private Transform pBody;
+   
 
-    private Rigidbody2D pRigid;
+    private Rigidbody2D PlayerRigidbody;
 
-    public bool _Direction;
+    public bool FacingRight;
 
     public ArmRotation _Arm;
 
@@ -28,11 +28,11 @@ public class PlayerScript : MonoBehaviour {
     void Awake ()
 
     {
-        pBody = transform.Find("Body");
+        
 
-        pRigid = gameObject.GetComponent<Rigidbody2D>();
+        PlayerRigidbody = gameObject.GetComponent<Rigidbody2D>();
 
-        _Direction = true;
+        FacingRight = true;
 
     }
 
@@ -53,7 +53,12 @@ public class PlayerScript : MonoBehaviour {
 
         float _Vertical = Input.GetAxis("Vertical");
 
-        Movements(_Horizontal);
+        if (Input.GetKey(KeyCode.Space))
+        {
+            PlayerRigidbody.AddForce(transform.up*20);
+        }
+
+            Movements(_Horizontal);
 
       
     }
@@ -68,25 +73,25 @@ public class PlayerScript : MonoBehaviour {
 
     {
 
-            pRigid.AddForce(new Vector2(_Speed*_Horizontal, pRigid.velocity.y));
+            PlayerRigidbody.AddForce(new Vector2(_Speed*_Horizontal, PlayerRigidbody.velocity.y));
 
 
     }
 
   
 
-    public void Flipp ()
+    public void TurnCharacter ()
 
     {
 
         
-            _Direction = !_Direction;
+            FacingRight = !FacingRight;
 
-            Vector3 theScale = pBody.localScale;
+            Vector3 theScale = transform.localScale;
 
             theScale.x *= -1f;
 
-            pBody.localScale = theScale;
+            transform.localScale = theScale;
         
 
     }
