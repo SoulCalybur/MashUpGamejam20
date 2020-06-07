@@ -781,11 +781,6 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3213273228305265580, guid: 463ff639a62489443b5373433ea18c88,
         type: 3}
-      propertyPath: crossHairPos
-      value: 
-      objectReference: {fileID: 745945448}
-    - target: {fileID: 3213273228305265580, guid: 463ff639a62489443b5373433ea18c88,
-        type: 3}
       propertyPath: crosshair
       value: 
       objectReference: {fileID: 745945448}
@@ -848,11 +843,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9044403290116232930, guid: 463ff639a62489443b5373433ea18c88,
-        type: 3}
-      propertyPath: balloonCapacity
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 463ff639a62489443b5373433ea18c88, type: 3}

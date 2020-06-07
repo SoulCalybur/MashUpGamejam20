@@ -187,6 +187,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   balloonPrefab: {fileID: 2780527229934709939, guid: 97247fa15b6769646896fdc6fff58ba1,
     type: 3}
+  balloonCapacity: 5
 --- !u!114 &8681029163387290885
 MonoBehaviour:
   m_ObjectHideFlags: 0
