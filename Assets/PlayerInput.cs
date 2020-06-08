@@ -289,6 +289,14 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""Look"",
+                    ""type"": ""PassThrough"",
+                    ""id"": ""08ab7407-788d-4016-93da-11602e604e30"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -445,6 +453,17 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                     ""action"": ""Jump"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""a8102373-a72d-45c9-a056-856910b018f1"",
+                    ""path"": ""<Keyboard>/8"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard+Mouse"",
+                    ""action"": ""Look"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -494,6 +513,7 @@ public class @PlayerInput : IInputActionCollection, IDisposable
         m_Player2_Fire = m_Player2.FindAction("Fire", throwIfNotFound: true);
         m_Player2_ChooseTools = m_Player2.FindAction("ChooseTools", throwIfNotFound: true);
         m_Player2_Jump = m_Player2.FindAction("Jump", throwIfNotFound: true);
+        m_Player2_Look = m_Player2.FindAction("Look", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -621,6 +641,7 @@ public class @PlayerInput : IInputActionCollection, IDisposable
     private readonly InputAction m_Player2_Fire;
     private readonly InputAction m_Player2_ChooseTools;
     private readonly InputAction m_Player2_Jump;
+    private readonly InputAction m_Player2_Look;
     public struct Player2Actions
     {
         private @PlayerInput m_Wrapper;
@@ -630,6 +651,7 @@ public class @PlayerInput : IInputActionCollection, IDisposable
         public InputAction @Fire => m_Wrapper.m_Player2_Fire;
         public InputAction @ChooseTools => m_Wrapper.m_Player2_ChooseTools;
         public InputAction @Jump => m_Wrapper.m_Player2_Jump;
+        public InputAction @Look => m_Wrapper.m_Player2_Look;
         public InputActionMap Get() { return m_Wrapper.m_Player2; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -654,6 +676,9 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                 @Jump.started -= m_Wrapper.m_Player2ActionsCallbackInterface.OnJump;
                 @Jump.performed -= m_Wrapper.m_Player2ActionsCallbackInterface.OnJump;
                 @Jump.canceled -= m_Wrapper.m_Player2ActionsCallbackInterface.OnJump;
+                @Look.started -= m_Wrapper.m_Player2ActionsCallbackInterface.OnLook;
+                @Look.performed -= m_Wrapper.m_Player2ActionsCallbackInterface.OnLook;
+                @Look.canceled -= m_Wrapper.m_Player2ActionsCallbackInterface.OnLook;
             }
             m_Wrapper.m_Player2ActionsCallbackInterface = instance;
             if (instance != null)
@@ -673,6 +698,9 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                 @Jump.started += instance.OnJump;
                 @Jump.performed += instance.OnJump;
                 @Jump.canceled += instance.OnJump;
+                @Look.started += instance.OnLook;
+                @Look.performed += instance.OnLook;
+                @Look.canceled += instance.OnLook;
             }
         }
     }
@@ -711,5 +739,6 @@ public class @PlayerInput : IInputActionCollection, IDisposable
         void OnFire(InputAction.CallbackContext context);
         void OnChooseTools(InputAction.CallbackContext context);
         void OnJump(InputAction.CallbackContext context);
+        void OnLook(InputAction.CallbackContext context);
     }
 }
